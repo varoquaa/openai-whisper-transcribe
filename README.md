@@ -1,3 +1,8 @@
+React Application with MUI that transcribes sound files into text using openai whisper api. 
+
+includes react application as front and and flask application on backend (see instruction at end)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,11 +73,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# openai-whisper-transcribe
-# openai-whisper-transcribe
-# openai-whisper-transcribe
-# openai-whisper-transcribe
-# openai-whisper-transcribe
-# openai-whisper-transcribe
-# openai-whisper-transcribe
-# openai-whisper-transcribe
+
+# run api
+
+Run Flask api (app.py) on port 6372 after installing requirements.txt
+
+python -m flask run -h localhost -p 6372
